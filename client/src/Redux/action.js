@@ -1,4 +1,7 @@
 
 export const dataAction=(data,dispatch)=>{
-return 
+   dispatch({
+    type:'getData',
+    data:'payload'
+   })
 }
