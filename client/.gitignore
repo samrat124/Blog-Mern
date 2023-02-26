@@ -8,7 +8,7 @@ temp.js
 # testing
 /coverage
 .gitignore
-
+.env
 # production
 /build
 

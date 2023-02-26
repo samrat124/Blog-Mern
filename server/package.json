@@ -8,7 +8,7 @@
 		"start": "nodemon index.js"
 	},
 	"keywords": [],
-	"author": "Sonu kr.",
+	"author": "Samrat Kumar",
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",

@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-const apiURL = ['https://tan-elegant-whale.cyclic.app', 'http://localhost:5000']
-const API = axios.create({ baseURL: apiURL[0] })
+
+const apiURL = ['mongodb://localhost:27017/blog', 'http://localhost:5000']
+const API = axios.create({ baseURL: apiURL[1] })
 
 API.interceptors.request.use((req) => {
 	if (localStorage.getItem('profile')) {

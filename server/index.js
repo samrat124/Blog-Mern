@@ -24,4 +24,4 @@ mongoose
 	.connect(process.env.CONNECTION_URL)
 	.then(console.log('Connected to MongoDB Database 🌐'))
 	.then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT} 🚀`)))
-	.catch((error) => console.log(`❎ Server did not connect ⚠️\n${error}`))
+	.catch((error) =>{ console.log(`❎ Server did not connect ⚠️\n${error}`); console.log(error)})
